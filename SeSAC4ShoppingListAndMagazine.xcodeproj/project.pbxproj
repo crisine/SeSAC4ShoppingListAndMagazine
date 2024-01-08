@@ -19,6 +19,8 @@
 		FA566A9D2B4C26C300A1C034 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FA566A9C2B4C26C300A1C034 /* Kingfisher */; };
 		FA566A9F2B4C27AF00A1C034 /* MagazineInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA566A9E2B4C27AF00A1C034 /* MagazineInfo.swift */; };
 		FA566AA12B4C282000A1C034 /* Magazine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA566AA02B4C282000A1C034 /* Magazine.swift */; };
+		FA566AA32B4C2DF800A1C034 /* TravelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA566AA22B4C2DF800A1C034 /* TravelTableViewController.swift */; };
+		FA566AA52B4C2E0900A1C034 /* TravelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA566AA42B4C2E0900A1C034 /* TravelTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		FA566A992B4C0CC700A1C034 /* ShoppingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
 		FA566A9E2B4C27AF00A1C034 /* MagazineInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagazineInfo.swift; sourceTree = "<group>"; };
 		FA566AA02B4C282000A1C034 /* Magazine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magazine.swift; sourceTree = "<group>"; };
+		FA566AA22B4C2DF800A1C034 /* TravelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTableViewController.swift; sourceTree = "<group>"; };
+		FA566AA42B4C2E0900A1C034 /* TravelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 				FA566A992B4C0CC700A1C034 /* ShoppingItem.swift */,
 				FA566A9E2B4C27AF00A1C034 /* MagazineInfo.swift */,
 				FA566AA02B4C282000A1C034 /* Magazine.swift */,
+				FA566AA42B4C2E0900A1C034 /* TravelTableViewCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				FA566A972B4C073D00A1C034 /* ShoppingListTableViewController.swift */,
+				FA566AA22B4C2DF800A1C034 /* TravelTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,7 +184,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA566A9A2B4C0CC700A1C034 /* ShoppingItem.swift in Sources */,
+				FA566AA32B4C2DF800A1C034 /* TravelTableViewController.swift in Sources */,
 				FA566A982B4C073D00A1C034 /* ShoppingListTableViewController.swift in Sources */,
+				FA566AA52B4C2E0900A1C034 /* TravelTableViewCell.swift in Sources */,
 				FA566A842B4C041000A1C034 /* ViewController.swift in Sources */,
 				FA566A942B4C071B00A1C034 /* ShoppingListTableViewCell.swift in Sources */,
 				FA566A9F2B4C27AF00A1C034 /* MagazineInfo.swift in Sources */,
