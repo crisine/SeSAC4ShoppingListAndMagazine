@@ -52,7 +52,7 @@ class TravelTableViewController: UITableViewController {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyMMdd"
         
-        if let date = dateFormatter.date(from: "240103") {
+        if let date = dateFormatter.date(from: magazineList[index].date) {
             dateFormatter.dateFormat = "yy년 MM월 dd일"
             cell.dateLabel.text = dateFormatter.string(from: date)
         } else {
