@@ -10,7 +10,7 @@ import Kingfisher
 
 class TravelTableViewController: UITableViewController {
 
-    var magazineList: [Magazine] = MagazineInfo().magazine
+    var magazineList: [Magazine] = MagazineInfo.magazine
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -63,5 +63,16 @@ class TravelTableViewController: UITableViewController {
         cell.dateLabel.textColor = .gray
     
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let magazine = magazineList[indexPath.row]
+        
+        let vc = storyboard?.instantiateViewController(withIdentifier: MagazineWebViewController.identifier) as! MagazineWebViewController
+        
+        vc.configureWebView(urlString: magazine.link)
+        
+        navigationController?.pushViewController(vc, animated: true)
     }
 }

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		FA566A802B4C041000A1C034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA566A7F2B4C041000A1C034 /* AppDelegate.swift */; };
 		FA566A822B4C041000A1C034 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA566A812B4C041000A1C034 /* SceneDelegate.swift */; };
-		FA566A842B4C041000A1C034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA566A832B4C041000A1C034 /* ViewController.swift */; };
 		FA566A872B4C041000A1C034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA566A852B4C041000A1C034 /* Main.storyboard */; };
 		FA566A892B4C041100A1C034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA566A882B4C041100A1C034 /* Assets.xcassets */; };
 		FA566A8C2B4C041100A1C034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA566A8A2B4C041100A1C034 /* LaunchScreen.storyboard */; };
@@ -21,13 +20,15 @@
 		FA566AA12B4C282000A1C034 /* Magazine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA566AA02B4C282000A1C034 /* Magazine.swift */; };
 		FA566AA32B4C2DF800A1C034 /* TravelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA566AA22B4C2DF800A1C034 /* TravelTableViewController.swift */; };
 		FA566AA52B4C2E0900A1C034 /* TravelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA566AA42B4C2E0900A1C034 /* TravelTableViewCell.swift */; };
+		FA7AAE422B554D8C00070E5F /* MagazineWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AAE412B554D8C00070E5F /* MagazineWebViewController.swift */; };
+		FA7AAE462B554E0C00070E5F /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AAE452B554E0C00070E5F /* Protocol.swift */; };
+		FA7AAE482B554E3000070E5F /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AAE472B554E3000070E5F /* UIViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA566A7C2B4C041000A1C034 /* SeSAC4ShoppingListAndMagazine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSAC4ShoppingListAndMagazine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA566A7F2B4C041000A1C034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA566A812B4C041000A1C034 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA566A832B4C041000A1C034 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA566A862B4C041000A1C034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA566A882B4C041100A1C034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA566A8B2B4C041100A1C034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,6 +40,9 @@
 		FA566AA02B4C282000A1C034 /* Magazine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magazine.swift; sourceTree = "<group>"; };
 		FA566AA22B4C2DF800A1C034 /* TravelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTableViewController.swift; sourceTree = "<group>"; };
 		FA566AA42B4C2E0900A1C034 /* TravelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTableViewCell.swift; sourceTree = "<group>"; };
+		FA7AAE412B554D8C00070E5F /* MagazineWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagazineWebViewController.swift; sourceTree = "<group>"; };
+		FA7AAE452B554E0C00070E5F /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		FA7AAE472B554E3000070E5F /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,11 +76,12 @@
 		FA566A7E2B4C041000A1C034 /* SeSAC4ShoppingListAndMagazine */ = {
 			isa = PBXGroup;
 			children = (
+				FA7AAE442B554E0100070E5F /* Protocol */,
+				FA7AAE432B554DD300070E5F /* Extension */,
 				FA566A962B4C072500A1C034 /* Controller */,
 				FA566A952B4C071E00A1C034 /* Model */,
 				FA566A7F2B4C041000A1C034 /* AppDelegate.swift */,
 				FA566A812B4C041000A1C034 /* SceneDelegate.swift */,
-				FA566A832B4C041000A1C034 /* ViewController.swift */,
 				FA566A852B4C041000A1C034 /* Main.storyboard */,
 				FA566A882B4C041100A1C034 /* Assets.xcassets */,
 				FA566A8A2B4C041100A1C034 /* LaunchScreen.storyboard */,
@@ -102,8 +107,25 @@
 			children = (
 				FA566A972B4C073D00A1C034 /* ShoppingListTableViewController.swift */,
 				FA566AA22B4C2DF800A1C034 /* TravelTableViewController.swift */,
+				FA7AAE412B554D8C00070E5F /* MagazineWebViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA7AAE432B554DD300070E5F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FA7AAE472B554E3000070E5F /* UIViewControllerExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FA7AAE442B554E0100070E5F /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				FA7AAE452B554E0C00070E5F /* Protocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,10 +208,12 @@
 				FA566A9A2B4C0CC700A1C034 /* ShoppingItem.swift in Sources */,
 				FA566AA32B4C2DF800A1C034 /* TravelTableViewController.swift in Sources */,
 				FA566A982B4C073D00A1C034 /* ShoppingListTableViewController.swift in Sources */,
+				FA7AAE422B554D8C00070E5F /* MagazineWebViewController.swift in Sources */,
 				FA566AA52B4C2E0900A1C034 /* TravelTableViewCell.swift in Sources */,
-				FA566A842B4C041000A1C034 /* ViewController.swift in Sources */,
 				FA566A942B4C071B00A1C034 /* ShoppingListTableViewCell.swift in Sources */,
+				FA7AAE462B554E0C00070E5F /* Protocol.swift in Sources */,
 				FA566A9F2B4C27AF00A1C034 /* MagazineInfo.swift in Sources */,
+				FA7AAE482B554E3000070E5F /* UIViewControllerExtension.swift in Sources */,
 				FA566AA12B4C282000A1C034 /* Magazine.swift in Sources */,
 				FA566A802B4C041000A1C034 /* AppDelegate.swift in Sources */,
 				FA566A822B4C041000A1C034 /* SceneDelegate.swift in Sources */,
